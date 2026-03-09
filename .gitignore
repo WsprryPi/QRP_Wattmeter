@@ -1,0 +1,187 @@
+# ==============================
+# KiCad project ignores
+# ==============================
+
+# Backup files
+*-backups/
+*.bak
+*.bck
+*.tmp
+*.save
+*.autosave
+
+# Lock files
+*.lck
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Netlists and intermediates
+*.net
+*.xml
+*.dsn
+
+# PCB fabrication outputs
+*.gbr
+*.gbrjob
+*.drl
+*.map
+*.pos
+*.rpt
+*.stl
+*.step
+*.wrl
+*.vrml
+
+# Drill files
+*.drill
+
+# BOM exports
+*.csv
+*.txt
+
+# Plot outputs
+*.pdf
+*.svg
+*.ps
+
+# KiCad export folders
+/plot/
+/gerbers/
+/fab/
+/manufacturing/
+/fabrication/
+/outputs/
+
+# Simulation
+*.raw
+*.log
+
+# ==============================
+# ESP-IDF / Firmware
+# ==============================
+
+# Build output
+build/
+
+# Generated configuration
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF dependency manager
+managed_components/
+dependencies.lock
+
+# Flash artifacts
+*.bin
+*.elf
+*.map
+
+# Partition tables
+partition-table.bin
+
+# ==============================
+# CMake
+# ==============================
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# ==============================
+# Sphinx / ReadTheDocs
+# ==============================
+
+# Sphinx build directory
+docs/_build/
+
+# Doctrees cache
+docs/_build/doctrees/
+
+# Generated HTML
+docs/_build/html/
+
+# Generated LaTeX
+docs/_build/latex/
+
+# Generated man pages
+docs/_build/man/
+
+# Generated epub
+docs/_build/epub/
+
+# Generated gettext
+docs/_build/gettext/
+
+# Sphinx autosummary output
+docs/_autosummary/
+
+# Sphinx API output
+docs/api/
+
+# ==============================
+# Python cache (ESP-IDF tools & Sphinx)
+# ==============================
+
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environments
+.env/
+venv/
+.venv/
+
+# ==============================
+# macOS junk
+# ==============================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Windows junk
+Thumbs.db
+
+# ==============================
+# IDE junk
+# ==============================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ==============================
+# Files to keep (IMPORTANT)
+# ==============================
+
+# KiCad project files
+!*.kicad_pro
+!*.kicad_prl
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_sym
+!*.kicad_mod
+!*.kicad_dru
+
+# Libraries you created
+!*.pretty/
+!*.3dshapes/
+
+# Firmware reproducibility
+!sdkconfig.defaults
+
+# Documentation source
+!docs/
+!docs/requirements.txt
+!docs/*.pdf
+!*.rst
+!*.md

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "QRP Wattmeter")(type "KiCad")(uri "${KIPRJMOD}/QRP Wattmeter.kicad_sym")(options "")(descr ""))
+)
